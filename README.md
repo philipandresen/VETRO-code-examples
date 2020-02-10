@@ -5,14 +5,18 @@ Some basic react (and possibly node, we'll see) code examples. Written in notepa
 ExampleStructureComponent.jsx - stateless structural component
 SelectedUserContextManager.jsx - Stateful context manager
 
-These code examples come with the acknowledgement that all teams have their own preferences for documentation, style,
-naming conventions, and structure / design. I have developed my personal style of react composition through a number
-of project iterations, learning from confusing and difficult to decypher component heierarchies. While the patterns
-within are nuanced and debatable, they represent one example of the code I output on a daily basis, and that most
-clearly conveys its purpose to the members of my current team.
+All teams have their own preferences for documentation, style, naming conventions, and structure / design. 
+This was written in a style that I have found most clearly conveys its purpose to the members of my current team.
 
 My personal philosophy is that code should be self-documenting. Comments are appropriate to highlight gotcha's and
 explain complex pieces of logic but otherwise well written code should be easy to read and understand.
+
+Notable exclusions:
+- No components that take custom props
+- No unit / integration tests
+- No SCSS
+
+Maybe I'll turn this into a real project and develop some of those but this is just a bored sunday evening of code noodling.
 
 ## Node.JS
 UserController.js - Controller for an express / node user endpoint.
