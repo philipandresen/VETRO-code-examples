@@ -17,6 +17,7 @@ export async function updateUser(req, res, next) {
 		We might provide an organization as part of a security middleware, post-authentication.
 		Auth is a bit out of scope (and pretty involved) for this example, so lets pretend it's there!
 		We'll assume that everyone at an organization can update users at their organization.
+		Also: Our 401s and 403s would be handled in the auth middleware, not here.
 	*/
 	const { organization } = req.securityContext;
 	
