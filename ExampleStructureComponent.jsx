@@ -1,4 +1,5 @@
 import React from 'react';
+import {Header, SideNavigation, MainContent, Footer} from './'
 
 /**
  ** ExampleStructureComponent is designed to be a simple container to structure a page.
