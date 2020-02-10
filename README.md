@@ -25,3 +25,8 @@ APIs can be extraordinarily layered in their design so it can be difficult to im
 some assumptions. For this exercise we assume we have a few pieces of middleware - one for authorizing and authenticating the
 maker of the API request, and another that handles exceptions thrown from the controller. These two components would have
 been built separately and have their own dependencies.
+
+Notable exclusions:
+- No middleware layer (auth, exception handling)
+- No DB interface
+- No unit / integration tests
