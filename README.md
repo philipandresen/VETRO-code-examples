@@ -8,5 +8,8 @@ of project iterations, learning from confusing and difficult to decypher compone
 within are nuanced and debatable, they represent one example of the code I output on a daily basis, and that most
 clearly conveys its purpose to the members of my current team.
 
+My personal philosophy is that code should be self-documenting. Comments are appropriate to highlight gotcha's and
+explain complex pieces of logic but otherwise well written code should be easy to read and understand.
+
 ## Node.JS
 Coming soon!
